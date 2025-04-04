@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #109175;
+    font-family: montserrat;
+
+}
+
+/*BARRA NORMAL*/
+
+.barra{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 7vh;
+    position:fixed;
+    z-index: 2;
+    /*  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);*/
+    text-align: center;
+    padding-top: 5px;
+}
+
+h1{
+    font-family: Monoton;
+    color: #646464;
+    font-weight: 100;
+    text-align:left;
+    margin-left: 10vh;
+}
+
+.logo{
+    width: 5vh;
+    position: absolute;
+    left: 2vh;
+}
+
+
+.logout{
+    position: absolute;
+    top: 2.5vh;
+    right: 12vh;
+
+
+}
+
+.logout a{
+    color: #1B1B1B;
+    font-weight: 400;
+
+}
+
+/*MENSAJE DE SELECCIONA UN AULA*/
+
+h2{
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 18%;
+    
+}
+
+
+
+
+/*BARRA DE NAVEGACION*/
+
+
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    width: 70px;
+    transition: width 0.2s linear;
+    transition: all 0.2 linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #137C66;
+
+}
+
+nav:hover{
+    width:310px;
+    transition: all 0.5s ease;
+}
+
+
+nav a{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    display: table;
+    width: 225px;
+    padding: 15px;
+    margin-left: 7vh;
+}
+
+.nav-img{
+    position: absolute;
+    width: 60px;
+    padding-left: 10px;
+    color: rgb(29, 29, 29);
+}
+
+.nav-item{
+    position: relative;
+    margin-left: 10px;
+}
+
+nav a:hover{
+    background: #D4D4D4;
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+}
+
+nav:hover ~ #calendar-container{
+    margin-left: 40vh;
+    transition: margin-left 0.5s ease;
+}
+
+nav:hover ~ #calendar-container .fc-toolbar{
+    width: 77.6%;
+    transition: width 0.5s ease;
+}
+
+nav:hover ~ #calendar-container .fc-scrollgrid-sync-inner{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+dialog form input::placeholder{
+    color: white;
+}
+
+dialog form input{
+    font-family: montserrat;
+    color: white;
+    background-color: #137C66;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+dialog form button{
+    font-family: montserrat;
+    background-color: #0D6C58;
+    color: white;
+    border: none;
+    padding: 10px;
+
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*SELECTOR*/
+
+.building-container select{
+    position: absolute;
+    top: 2.2vh;
+    left: 30vh;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+
+    background-color:#109175;
+    border-radius: 7px;
+    font-family: montserrat;
+    text-align: center;
+}
+
+
+
+.room-container select{
+    position: absolute;
+    top: 2.2vh;
+    left: 50vh;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+
+    background-color:#109175;
+    border-radius: 7px;
+    font-family: montserrat;
+    text-align: center;
+
+}
+
+#no-room-selected{
+    position: absolute;
+    color: white;
+    top: 50vh;
+    left: 32%;
+    font-size: 7vh;
+    z-index: 3;
+}
+
+
+
+
+/*CALENDARIO*/
+
+
+#calendar-container{
+    width: 100%;
+    height: 800px;
+    margin-top: 9vh;
+    margin-left: 15vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    color: rgb(48, 48, 48);
+    transition: margin-left 0.5s ease;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.fc .fc-toolbar{
+    position: absolute;
+    margin-bottom: 20px;
+    width:91.5%;
+    background-color:#137c65;
+    padding: 10px;
+    z-index: 4;
+}
+
+.fc-scrollgrid-sync-inner{
+    position:fixed;
+    z-index: 4;
+
+}
+
+.fc-scrollgrid {
+    margin-top: 10vh;
+
+}
+
+.fc .fc-scroller-liquid-absolute{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.fc .fc-col-header-cell-cushion {
+    position: absolute;
+    margin-top: -3vh;
+    width: 10vh;
+}
+
+
+.fc .fc-toolbar-title{
+    font-family: montserrat;
+    color: rgb(255, 255, 255);
+}
+
+.fc .fc-button{
+    font-family: montserrat;
+    background-color: rgba(0, 0, 255, 0);
+    border: #10917500;
+}
+
+.fc-theme-standard td{
+    border-color: rgba(255, 255, 255, 0.219);
+}
+
+.fc-theme-standard .fc-scrollgrid {
+    border: none;
+}
+
+.calendar-day.selected {
+    background-color: rgb(255, 255, 255);
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link{
+    background-color: #1E3D74;
+}
+
+
+
+
+    /*VENTANAS*/
+
+.style-modal::backdrop{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.style-modal{
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    background-color:#109175;
+    box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.377);
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+}
+
+.style-modal input{
+    background-color:#137c65;
+}
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1600px) {
+    .fc .fc-toolbar{
+        width:90%;
+    }
+
+    nav:hover ~ #calendar-container .fc .fc-toolbar{
+        width: 77%;
+    }
+
+    #calendar-container{
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .fc .fc-toolbar{
+        width:89%;
+    }
+
+    nav:hover ~ #calendar-container .fc .fc-toolbar{
+        width: 73%;
+    }
+
+    #no-room-selected{
+        left: 30%;
+    }
+
+
+}
+
+@media (max-width: 1300px) {
+    .fc .fc-toolbar{
+        width:88%;
+    }
+
+    nav:hover ~ #calendar-container .fc .fc-toolbar{
+        width: 71%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .fc .fc-toolbar{
+        width:87%;
+    }
+
+    nav:hover ~ #calendar-container .fc .fc-toolbar{
+        width: 69%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .fc .fc-toolbar{
+        width:86%;
+    }
+
+    nav:hover ~ #calendar-container .fc .fc-toolbar{
+        width: 62%;
+    }
+
+    #no-room-selected{
+        left: 25%;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    .logout a{
+        font-size: 15px;
+
+    }
+}

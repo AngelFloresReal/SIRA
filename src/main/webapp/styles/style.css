@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#body_index{
+    background-color: #1E3D74;
+    margin: 0;
+    padding: 0;
+}
+
+.asset_1_1{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+}
+
+.asset_1_2{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+    right: 0;
+}
+
+.asset_1_3{
+    position: absolute;
+    height: 95vh;
+    left: 0;
+}
+
+.asset_1_3{
+    bottom: 1;
+}
+
+.title_sira{
+    font-family: Monoton;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 45%;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 15vh;
+}
+
+.container{
+    background-color: #109175;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    text-align: center;
+    z-index: 2;
+}
+
+.form_alumno .input_alumno{
+    font-family: montserrat;
+    color: white;
+    background-color: #137C66;
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-right: 55%;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.form_alumno .input_alumno{
+    font-weight: 300;
+}
+
+.form_alumno .input_alumno::placeholder{
+    color: white;
+}
+
+
+.form_alumno .submit_alumno{
+    font-family: montserrat;
+    background-color: #0D6C58;
+    color: white;
+    border: none;
+    padding: 12px;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family: montserrat;
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/*STYLE ADMIN*/
+
+#body_admin{
+    background-color: #1B1B1B;
+    margin: 0;
+    padding: 0;
+}
+
+.asset_3_1{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+}
+
+.asset_3_2{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+    right: 0;
+}
+
+.asset_3_3{
+    position: absolute;
+    bottom: 1;
+    height: 95vh;
+    left: 0;
+}
+
+.container_admin{
+    background-color: #3E1558;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    text-align: center;
+    z-index: 2;
+}
+
+.form_admin .input_admin{
+    font-family: montserrat;
+    font-weight: 300;
+    color: white;
+    background-color: #552077;
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-right: 55%;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_admin .input_admin::placeholder{
+    color: white;
+}
+
+
+.form_admin .submit_admin{
+    font-family: montserrat;
+    background-color: #2A0D3C;
+    color: white;
+    border: none;
+    padding: 12px;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*Docente Style*/
+
+#body_docent{
+    background-color: #1C6474;
+    margin: 0;
+    padding: 0;
+}
+
+.asset_2_1{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+}
+
+.asset_2_2{
+    position: absolute;
+    bottom: 0;
+    height: 90vh;
+    right: 0;
+}
+
+.asset_2_3{
+    position: absolute;
+    bottom: 1;
+    height: 95vh;
+    left: 0;
+}
+
+.container_docente{
+    background-color: #189D55;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    text-align: center;
+    z-index: 2;
+}
+
+.form_docente .input_docente{
+    font-family: montserrat;
+    font-weight: 300;
+    color: white;
+    background-color: #1EBC66;
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-right: 55%;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_docente .input_docente::placeholder{
+    color: white;
+}
+
+
+.form_docente .submit_docente{
+    font-family: montserrat;
+    background-color: #106A3A;
+    color: white;
+    border: none;
+    padding: 12px;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/calendario.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/docente.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/options-admin-reservations.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/principal_admin.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/principal_pages/buildings.jsp" value="file://$PROJECT_DIR$/src/main/webapp/principal_pages" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/principal_pages/reservas-docent.jsp" value="file://$PROJECT_DIR$/src/main/webapp/principal_pages" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/principal_pages/reservas.jsp" value="file://$PROJECT_DIR$/src/main/webapp/principal_pages" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/secundary-pages/add-admin-reservations.jsp" value="file://$PROJECT_DIR$/src/main/webapp/secundary-pages" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/si.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>
